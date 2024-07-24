@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boer Goat Showing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: black;
+            color: lime;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+		header::before, footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('') no-repeat center center;
+            background-size: cover;
+            opacity: 0.5;
+            z-index: 0;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+		 .header-content, .footer-content {
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        nav {
+            background-color: #333;
+            width: 100%;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: lime;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .content > div {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .appointment-section {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .appointment-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .appointment-section form label {
+            margin: 10px 0 5px 0;
+        }
+        .appointment-section form input, .appointment-section form textarea {
+            padding: 10px;
+            margin: 5px 0 10px 0;
+            width: 80%;
+            max-width: 400px;
+        }
+        .appointment-section form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .appointment-section form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .external-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .external-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .external-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/limegreengoat.png" alt="Logo Left" class="logo">
+        <h1>Welcome to Phat Farm Boer Goats</h1>
+		<p>and Outfitting</p>
+        <img src="images/limegreengoat.png" alt="Logo Right" class="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="Show Know.html">Show Know</a></li>
+            <li><a href="goats for sale.html">Goats for Sale</a></li>
+            <li><a href="our services.html">Our Services</a></li>
+            <li><a href="make appointment.html">Make an Appointment</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div>
+                <h2>Show Tips for Beginners</h2>
+                <ul>
+                    <li>Prepare your goat.</li>
+					<p>Before the show, you can try to bond with your goat by scratching it between the ears, brushing it, and feeding it out of your hand. You can also try letting it follow you on short walks.</p>
+                    <li>Prepare you goats stomach.</li>
+					<p>You can feed your goat a little hay once or twice weekly to keep its rumen (stomach) working properly. However, you should avoid feeding your goat hay right before the show, as it can make your goat look overfilled.</p>
+                    <li>Prepare fo the show ring.</li>
+					<p>Before showmanship, evaluate the show ring for low spots and try to position your goat so its front feet don't end up in them. You can also try to bring some tree shade to help protect your goat from heat, cold, and wind.</p>
+					<li>During the show.</li>
+					<p>When leading your goat, try to keep it between you and the judge, and switch sides as the judge moves. You can also try to keep your goat's front shoulder even with your leg and its head in front of your body. When the judge is in front of you, you can try to keep your goat's front feet wide and square by pushing on the chain. You should also try to always keep all four of your goat's feet square.</p>
+                </ul>
+            </div>
+            <div>
+                <h2>In the barn.</h2>
+                <ul>
+                    <li>Large Mirrow- to practice</li>
+                    <li>Nylon Rope Halter</li>
+                    <li>Hanging Feed Pans</li>
+					<li>Large Water Buckets</li>
+					<li>Fitting Stand</li>
+					<li>Blower</li>
+					<li>Sure Coat Goat and Lamb</li>
+					<li>Hoof Trimmers</li>
+					<li>Lister or Premier clippers with cover coat blades</li>
+					<li>ProCool Blankets</li>
+					<li>Weather Shield Blankets</li><br>
+					 <h2>In the Show Box</h2>
+				</ul>
+                <ul>
+                    <li>Kaopectin</li>
+					<li>Muzzle</li>
+					<li>Drench Gun</li>
+					<li>Hoof Trimmers</li>
+					<li>Shampoo</li>
+					<li>Conditioner</li>
+					<li>Ring Out</li>
+					<li>Andis Clippers</li>
+					<li>Show Halters</li>
+					<li>Number Clip</li>
+					<li>Zip Ties</li>
+					<li>Towels</li>
+					<li>Medications</li>
+					<li>Syringes</li>
+					<li>Big Surs Spray</li>
+					<li>Calming Paste</li>
+					<li>Water Buckets</li>
+					<li>Feed Pan</li>
+					<li>Safety Pins</li>
+					<li>Bobby Pins</li>
+					<li>Tide Pin</li>
+					<li>Wrinkle Spray</li>
+					<li>Snacks</li>
+					<li>Hair Supplies to look professional and polished</li>
+					
+                </ul>
+            </div>
+			
+        </div>
+		 <iframe width="560" height="315" src="https://www.youtube.com/embed/jsfpOsYjBKI?si=q-Hs3k0FpMZKFIg-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <section id="appointment" class="appointment-section">
+            <h2>Make an Appointment</h2>
+            <p>Contact us to schedule a visit or consultation. We are here to help you with all your Boer goat showing needs.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+       
+    </div>
+    <footer>
+        <p>&copy; 2024 Boer Goat Showing. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
