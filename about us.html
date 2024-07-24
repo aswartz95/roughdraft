@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boer Goat Showing</title>
+    <title>About Us</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,14 +15,13 @@
             background-color: #f9f9f9;
         }
         header, footer {
-            background: black;
+            background-color: black;
             color: lime;
             padding: 20px;
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: relative;
         }
         header::before, footer::before {
             content: '';
@@ -38,20 +37,18 @@
         }
         .logo {
             width: 100px;
-            height: 100px;
-            z-index: 1;
+            height: auto;
         }
-        .header-content, .footer-content {
+		.header-content, .footer-content {
             z-index: 1;
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;
-        }
+		}
         nav {
             background-color: #333;
             width: 100%;
-            z-index: 1;
         }
         nav ul {
             list-style-type: none;
@@ -132,8 +129,8 @@
     </style>
 </head>
 <body>
-    <header>
-        <img src="images/limegreengoat.png" alt="logoleft" class="logo">
+	<header>
+      <img src="images/limegreengoat.png" alt="logoleft" class="logo">
         <div class="header-content">
             <h1>Welcome to Phat Farm Boer Goats</h1>
 			<p>and Outfitting</p>
@@ -142,41 +139,19 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#show-know">Show Know</a></li>
-            <li><a href="#goats-for-sale">Goats for Sale</a></li>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#appointment">Make an Appointment</a></li> 
-			
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="show-know.html">Show Know</a></li>
+            <li><a href="goats-for-sale.html">Goats for Sale</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="#appointment">Make an Appointment</a></li>
         </ul>
     </nav>
     <div class="container">
-        <section id="about" class="info-section">
+        <section class="info-section">
             <img src="images/4goats.jpg" alt=""/>
             <div>
                 <h2>About Us</h2>
-                <p>We are a small family-owned business dedicated to breeding high-quality Boer goats. Our goal is to provide the best experience for our showmen and support our buyers through every step of their journey.</p>
-            </div>
-        </section>
-        <section id="show-know" class="info-section">
-            <img src="images/3girls.jpg" alt=""/>
-            <div>
-                <h2>Show Know</h2>
-                <p>Showing goats at stock shows requires hard work and dedication. Let us support you on this journey by sharing valuable tips and tricks we've learned along the way. Our goal is to help you become the best showman you can be.</p>
-            </div>
-        </section>
-        <section id="goats-for-sale" class="info-section">
-            <img src="images/sono.jpg" alt=""/>
-            <div>
-                <h2>Goats for Sale</h2>
-                <p>We have a variety of Boer goats available for sale or lease. Each goat can be registered for a small fee, and all sales include a vet health certificate. Check our listings for the latest availability.</p>
-            </div>
-        </section>
-        <section id="services" class="info-section">
-            <img src="images/stand.jpg" alt=""/>
-            <div>
-                <h2>Our Services</h2>
-                <p>We offer a range of services including leasing programs, clinics for show preparation, and ongoing support for our customers. Our lease program is unique and involves a contract detailing the responsibilities of the lessee.</p>
+                <p>Welcome to our small family-owned Boer Goat business! Over the past six years, we have dedicated ourselves to building a top-quality breeding program, producing exceptional Boer goat stock. Our commitment extends beyond just sales; we deeply value the relationships we form wih our buyers and fellow breeders, often leading to lifelong friendships. We are passionate about offering the best possible experience for our showmen. On our website, you will find detailed information about the goats available for sale or lease, the variety of services we offer, and unique resource page, specifically designed for beginners. We take pride in being a supportive and knowledgeable community for anyone interested in Boer goats. .</p>
             </div>
         </section>
         <section id="appointment" class="appointment-section">
@@ -196,9 +171,7 @@
         </section>
     </div>
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Boer Goat Showing. All Rights Reserved.</p>
-        </div>
+        <p>&copy; 2024 Boer Goat Showing. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
